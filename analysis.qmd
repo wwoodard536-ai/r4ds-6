@@ -1,0 +1,14 @@
+---
+title: "Analyzing Americans' Time Use"
+author: "wwoodard536-ai"
+execute:
+  echo: false
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(DBI)
+library(duckdb)
+library(dbplyr)
+```
